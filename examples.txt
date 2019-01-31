@@ -1,0 +1,14 @@
+(Func '+' (Func '*' (Num 3) (Var 'x')) (Func '*' (Num 10) (Var 'x'))) // 3x + 10x
+
+
+(Func '*' (Func '^' (Var 'x') (Num 5)) (Func '^' (Var 'x') (Num 2)))  // x^5 * x^2
+
+
+				
+(Func '+' (Func '^' (Var 'x') (Num '2')) (Func '*' (Num 3) (Var 'x')))
+
+(Func '+' (Func '^' (Var 'x') (Num 2)) (Func '+' (Var 'x') (Num 4)))
+
+(Func '+' (Func '^' (Var 'x') (Num 2)) (Num 1)) // x^2 + 1
+
+(Func '/'  (Func '^' (Var 'x') (Num 2)) (Func '+' (Num 3) (Var 'x')))
